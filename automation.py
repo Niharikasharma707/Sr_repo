@@ -9,6 +9,7 @@ REPO_B_PATH = "/path/to/repo_b"
 # Output directory for diffs
 DIFF_OUTPUT_DIR = "./diff_output"
 
+# tracking --sr
 def run_command(command, cwd=None):
     try:
         result = subprocess.run(command, cwd=cwd, text=True, shell=True, check=True, stdout=subprocess.PIPE)
