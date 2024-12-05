@@ -51,10 +51,10 @@ def main():
     # Export repositories
     print("Exporting repositories...")
     export_repo_to_temp(REPO_A_PATH, repo_a_temp)
-      # Export repositories
+   
     export_repo_to_temp(REPO_B_PATH, repo_b_temp)
 
-    # Compare directories
+
     print("Comparing repositories...")
     compare_repos(repo_a_temp, repo_b_temp, DIFF_OUTPUT_DIR)
 
