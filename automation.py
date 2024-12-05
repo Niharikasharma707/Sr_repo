@@ -18,13 +18,10 @@ def run_command(command, cwd=None):
         print(f"Error: {e}")
         return None
 
-# Get the current commit hash in a repository
 def get_current_commit(repo_path):
     return run_command("git rev-parse HEAD", cwd=repo_path)\
         
-# Get the current commit hash in a repository
 
-# Export the current state of a repository to a temporary directory
 def export_repo_to_temp(repo_path, temp_dir):
     if os.path.exists(temp_dir):
         run_command(f"rm -rf {temp_dir}")
