@@ -36,7 +36,7 @@ def compare_repos(repo_a_temp, repo_b_temp, output_dir):
     print(f"Diff saved to {diff_file}")
 
 def main():
-    # Temporary directories for exports
+   
     repo_a_temp = "./repo_a_temp"
       # Export repositories
     repo_b_temp = "./repo_b_temp"
