@@ -3,6 +3,8 @@ import subprocess
 from pathlib import Path
 
 # Paths to the two repositories
+# Paths to the two repositories
+# Paths to the two repositories
 REPO_A_PATH = "/path/to/repo_a"
 REPO_B_PATH = "/path/to/repo_b"
 
